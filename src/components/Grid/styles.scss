@@ -1,16 +1,13 @@
 .wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    border: 2px solid #8a977b;
-    width: 500px;
-    margin-top: 50%;
-    margin-left: 50%;
-    transform: translate(-50%, -50%);
+  display: flex;
+  flex-flow: row wrap;
+  border: 2px solid #8a977b;
+  width: 500px;
+  height: 500px;
+  margin: 10px 30px 20px;
 
-    .single-square {
-        border: 2px solid #8a977b;
-        height: 100px;
-        color: #d9480f;
-        flex: 1 20%;
-    }
+  .single-square {
+    border: 2px solid #8a977b;
+    flex: 20%;
+  }
 }

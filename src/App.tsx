@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './styles/App.scss';
+import { Header } from '../src/components/Header/Header';
+import { CommandInput } from '../src/components/CommandInput/CommandInput';
 import { Grid } from '../src/components/Grid/Grid';
 
 class App extends Component<{}, { init: boolean }> {
@@ -7,7 +8,9 @@ class App extends Component<{}, { init: boolean }> {
 
   public render() {
     return (
-      <div className="App">
+      <div>
+        <Header />
+        <CommandInput />
         <Grid />
       </div>
     );

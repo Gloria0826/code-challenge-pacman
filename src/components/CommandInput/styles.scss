@@ -1,0 +1,37 @@
+.command-wrapper {
+  padding-left: 30px;
+
+  .input-field {
+    display: flex;
+    width: 300px;
+
+    .submit-button {
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+  }
+
+  .quick-fill {
+    margin-top: 20px;
+    display: flex;
+    .fill-text {
+      margin-bottom: 10px;
+    }
+    .tag-magenta {
+      color: #a11950;
+      background-color: #ffcfe1;
+    }
+    .tag-purple {
+      color: #6e32c9;
+      background-color: #e6d6ff;
+    }
+    .tag-blue {
+      color: #054ada;
+      background-color: #c9deff;
+    }
+    .tag-cyan {
+      color: #0058a1;
+      background-color: #b3e6ff;
+    }
+  }
+}
