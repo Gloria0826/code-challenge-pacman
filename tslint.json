@@ -1,0 +1,28 @@
+{
+    "extends": ["tslint:recommended", "tslint-react", "tslint-eslint-rules", "tslint-react-hooks", "tslint-config-prettier"],
+    "rules": {
+        "no-debugger": false,
+        "no-console": false,
+        "member-access": false,
+        "space-before-function-paren": false,
+        "linebreak-style": [true, "CRLF"],
+        "no-shadowed-variable": false,
+        "only-arrow-functions": true,
+        "interface-over-type-literal": true,
+        "jsx-wrap-multiline": false,
+        "ordered-imports": false,
+        "object-literal-sort-keys": false,
+        "jsx-no-lambda": false,
+        "react-hooks-nesting": "error"
+    },
+    "linterOptions": {
+        "exclude": [
+            "node_modules/**/*.ts",
+            "src/serviceWorker.ts",
+            "src/react-app-env.d.ts"
+        ]
+    },
+    "plugins": [
+        "prettier"
+    ]
+}

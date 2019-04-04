@@ -1,0 +1,23 @@
+{
+    "window.title": "Pacman ${activeEditorMedium} ${dirty}",
+    // Controls the format of the label for an editor.
+    "workbench.editor.labelFormat": "short",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#174875",
+        "tab.activeBackground": "#174875"
+    },
+    "explorer.sortOrder": "default",
+    // Format a file on save. A formatter must be available
+    // The file must not be auto-saved
+    "editor.formatOnSave": true,
+    // Enable/disable default JavaScript formatter (For Prettier)
+    "javascript.format.enable": false,
+    // trun it off for JS
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "git.ignoreLimitWarning": true,
+    // end of line character
+    "files.eol": "\r\n",
+    "typescript.tsdk": "node_modules\\typescript\\lib"
+}

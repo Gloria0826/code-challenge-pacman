@@ -1,0 +1,18 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": [
+    // Typescript TSlint Plugin
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    // Prettier formatter for Visual Studio Code
+    "esbenp.prettier-vscode",
+    // VSCode .env syntax highlighting
+    "mikestead.dotenv",
+    // Debugger for Chrome
+    "msjsdiag.debugger-for-chrome",
+    // See Git Blame information in the status bar for the currently selected line.
+    "waderyan.gitblame",
+    // Material Design Icons for Visual Studio Code
+    "pkief.material-icon-theme"
+  ]
+}

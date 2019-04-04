@@ -1,0 +1,8 @@
+# /node_modules/* in the project root is ignored by default
+
+# Ignore these
+node_modules/*
+public/*
+build/*
+src/serviceWorker.js
+Gulpfile.js
