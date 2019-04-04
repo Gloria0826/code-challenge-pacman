@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 import './styles/App.scss';
-
-const Test = styled.p`
-  color: palevioletred;
-  text-align: left;
-  font-size: 20px;
-  margin-left: 20px;
-`;
+import { Grid } from '../src/components/Grid/Grid';
 
 class App extends Component<{}, { init: boolean }> {
   state = { init: true };
@@ -15,7 +8,7 @@ class App extends Component<{}, { init: boolean }> {
   public render() {
     return (
       <div className="App">
-        <Test>Hello</Test>
+        <Grid />
       </div>
     );
   }
