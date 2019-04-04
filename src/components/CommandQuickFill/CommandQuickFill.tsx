@@ -21,7 +21,7 @@ const createTags = props => {
 export const CommandQuickFill: FC<ICommandInput> = props => {
   return (
     <div className="quick-fill">
-      <p className="fill-text">Quick Fill:</p>
+      <p className="fill-text">Quick Operation:</p>
       <div className="tag-group">{createTags(props)}</div>
     </div>
   );
