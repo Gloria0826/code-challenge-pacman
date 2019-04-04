@@ -15,7 +15,7 @@ interface IPacman {
 
 export const Pacman: FC<IPacman> = () => {
   return (
-    <div className="pacman">
+    <div className="pacman" style={{ bottom: '65px', left: '45px' }}>
       <img src={pacman} alt="pacman" />
     </div>
   );

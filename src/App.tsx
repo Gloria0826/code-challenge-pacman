@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
 import { Header } from '../src/components/Header/Header';
-import { CommandInput } from '../src/components/CommandInput/CommandInput';
-import { Grid } from '../src/components/Grid/Grid';
+import { CommandContainer } from './containers/CommandContainer';
+import { GridContainer } from './containers/GridContainer';
 
-class App extends Component<{}, { init: boolean }> {
-  state = { init: true };
-
+class App extends Component<{}, {}> {
   public render() {
     return (
       <div>
         <Header />
-        <CommandInput />
-        <Grid />
+        <CommandContainer />
+        <GridContainer />
       </div>
     );
   }

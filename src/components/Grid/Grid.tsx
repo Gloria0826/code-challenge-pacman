@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import './styles.scss';
-import { Pacman } from '../Pacman/Pacman';
+// import { Pacman } from '../Pacman/Pacman';
 import { GRID_NUMBER } from '../../constants';
 
 interface IGrid {
@@ -17,11 +17,7 @@ interface IGrid {
 const drawGrid = gridNumber => {
   const gridArray: any = [];
   for (let i = 0; i < gridNumber * gridNumber; i++) {
-    gridArray.push(
-      <div className="single-square" key={`square-${i}`}>
-        <Pacman />
-      </div>
-    );
+    gridArray.push(<div className="single-square" key={`square-${i}`} />);
   }
   return gridArray;
 };

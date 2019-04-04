@@ -1,6 +1,5 @@
-import dispatcher from '../utils/dispatcher';
-import { commandDataReceived } from './actions';
+import { loadCommand } from '../dispatcher/CommandDispatcher';
 
-export const loadCommand = (): void => {
-  dispatcher.dispatch(commandDataReceived(123));
+export const updateCommand = command => {
+  loadCommand(command);
 };
