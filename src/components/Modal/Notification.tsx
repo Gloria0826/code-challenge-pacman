@@ -10,6 +10,13 @@ interface INotification {
 export const Notification: FC<INotification> = props => {
   const { msg } = props;
   return (
-    <InlineNotification title={msg.title} subtitle={msg.subtitle} caption="" kind={msg.kind} className="toast-style" />
+    <InlineNotification
+      title={msg.title}
+      subtitle={msg.subtitle}
+      caption=""
+      kind={msg.kind}
+      className="toast-style"
+      hideCloseButton={true}
+    />
   );
 };

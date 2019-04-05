@@ -32,7 +32,7 @@ export const handlePositionAndDirection = command => {
       inRange(positionArray[1], 0, GRID_NUMBER) &&
       DIRECTIONS.indexOf(positionArray[2]) !== -1
     ) {
-      return [positionArray[0], positionArray[1], DIRECTIONS.indexOf(positionArray[2])];
+      return [parseInt(positionArray[0], 10), parseInt(positionArray[1], 10), DIRECTIONS.indexOf(positionArray[2])];
     }
   }
   return false;
